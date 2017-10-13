@@ -12,3 +12,4 @@ preparing an annotated dataset of PC pieces to use with YOLO
   * In real life we might want to spend some money and outsource it using , for example, [Amazon's mechanical turk](http://labelme2.csail.mit.edu/Release3.0/browserTools/php/mechanical_turk.php)
 
 3- I used [this project](https://github.com/SsaRu/voc-annotation-to-yolo-format) -with some modificatios- to convert my XML files into the txt labels needed by [Darknet](https://github.com/pjreddie/darknet)
+  * Later, I found out that there is a [script](https://github.com/Guanghan/darknet/blob/master/scripts/voc_label.py) on darknet github to do so. But for now, I'm just keeping it here in case somehting goes wrong.
