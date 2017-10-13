@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+	<folder>001</folder>
+	<filename>im13</filename>
+	<path>/home/saghar/PCguts/BBox-Label-Tool/Images/001/im13.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ram</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>446</xmin>
+			<ymin>413</ymin>
+			<xmax>639</xmax>
+			<ymax>606</ymax>
+		</bndbox>
+	</object>
+</annotation>
