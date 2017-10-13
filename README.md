@@ -1,9 +1,9 @@
 # PCguts
 preparing an annotated dataset of PC pieces to use with YOLO
 
-1- Scrape the web for images of interesting parts/pieces in as many conditions and from as many angles as possible (especially including in an assembled machine)
-
 ## Steps to follow
+
+1- Scrape the web for images of interesting parts/pieces in as many conditions and from as many angles as possible (especially including in an assembled machine) - I did this by hand. Since I am only making a prototype project and testing if this is going to work at all!
 
 2- Annotate the images with the tool of choice. I used [ImageNet-Utils](https://github.com/tzutalin/ImageNet_Utils) because it's simple and fast and easily gives you XML annotations (I have not tried the txt files). It is, however, missing a magic wand tool for object selection.
   * some of the other tools I found interesting along the way:
