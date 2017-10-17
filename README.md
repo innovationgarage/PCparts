@@ -1,4 +1,4 @@
-# PCguts
+# PCparts
 preparing an annotated dataset of PC pieces to use with YOLO
 
 ## Steps to follow
