@@ -16,7 +16,7 @@ preparing an annotated dataset of PC pieces to use with YOLO
 3- I used [this project](https://github.com/SsaRu/voc-annotation-to-yolo-format) -with some modificatios- to convert my XML files into the txt labels needed by [Darknet](https://github.com/pjreddie/darknet)
   * Later, I found out that there is a [script](https://github.com/Guanghan/darknet/blob/master/scripts/voc_label.py) on darknet github to do so. But for now, I'm just keeping it here in case somehting goes wrong.
   
-4- Now we need to prepare the data for darknet. There is a [semi-automated script] (https://github.com/innovationgarage/PCparts/blob/master/config4darknet.py) doing this. It's far from a proper tool at this point, but it should give you the idea.
+4- Now we need to prepare the data for darknet. There is a [semi-automated script](https://github.com/innovationgarage/PCparts/blob/master/config4darknet.py) doing this. It's far from a proper tool at this point, but it should give you the idea.
 
 5- Configure a deep network to use in darknet. Some details about this can be found [here](https://github.com/innovationgarage/PCparts/blob/master/config4darknet.py). 
 
